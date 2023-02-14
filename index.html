@@ -1,121 +1,144 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="UTF-8">
-  <title>Engineering Subjects</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Engineering Subjects</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdBCk2YN-L4TrLsMR3gyzY6YLgMYBA460azg&usqp=CAU");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			color: #333;
+		}
+		h2 {
+			margin-top: 30px;
+			color: #333;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		li {
+			margin: 10px;
+			padding: 10px;
+			background-color: black;
+			color: white;
+			border-radius: 5px;
+			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		li:hover {
+			background-color: #333;
+		}
+		iframe {
+			width: 100%;
+			height: 400px;
+			border: none;
+		}
+		li a {
+	   text decoration:none;
+	   color:white;
+	    }
+	</style>
+	
 </head>
-
 <body>
-  <header>
-    <h1>Engineering Subjects</h1>
-  </header>
-  <section class="subjects">
-    <div class="subject">
-      <h2>Theory of Compu</h2>
-      <div class="chapters">
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_mzE70to4VwYyG1RsvXR15V">Playlist</a>
-      </div>
-    </div>
-    <div class="subject">
-      <h2>Applied Maths 3</h2>
-      <div class="chapters">
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_lBsFdycJzyuqH9SRGaQhO6">Module-1</a>
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_kGjFuji411U1u65pTDVMGV">Application of PDE</a>
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_lN2L1B-Lfxjd_F3XVG33T_">Chapter 3</a>
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_kGtapjdUmptv34zQTo9zmI">Chapter 4</a>
-      </div>
-    </div>
-    <div class="subject">
-      <h2>Data Structures</h2>
-      <div class="chapters">
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_mfOObvRnnYp7US80joKJwN">Playlist</a>
-      </div>
-    </div>
-    <div class="subject">
-      <h2>Discrete Maths</h2>
-      <div class="chapters">
-        <a href="https://youtube.com/playlist?list=PLOxDDktsWz_mYxqxp5bCruEKVS4khb0Rk">Playlist</a>
-      </div>
-    </div>
-  </section>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
+	<h1>Engineering Subjects</h1>
 
-    header {
-      text-align: center;
-      margin-bottom: 50px;
-    }
+	<!-- First heading and corresponding video list -->
+	<h2>Applied Maths-1</h2>
+	<ul>
+		<li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_mRCTyWmfr4reJAazds51fp" target="_blank" rel="noopener noreferrer">Linear Algebra</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_muacp28QK5aVj-LKtUeyvc" target="_blank" rel="noopener noreferrer">Differential Calculus </a></li>
+		<li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_nff8pNhnQYgsTLyH3s_4Au" target="_blank" rel="noopener noreferrer">Integral Calculus</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_kkki23LXofLoYsafNaOAEB" target="_blank" rel="noopener noreferrer">Vector Calculus</a></li>
+	</ul>
 
-    h1 {
-      animation: slide-in-blurred-top 0.7s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    }
+	<!-- Second heading and corresponding video list -->
+	<h2>Applied Maths-2</h2>
+	<ul>
+		<li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_mH9nAxxD9TbGIv_FPcrmD7" target="_blank" rel="noopener noreferrer">Ordinary Differential Equations</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_nBGwgGbwGR8I1Sc8PVnZPp" target="_blank" rel="noopener noreferrer">Laplace Transform</a></li>
+		<li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_muacp28QK5aVj-LKtUeyvc" target="_blank" rel="noopener noreferrer">Inverse Laplace Transform</a></li>
+	</ul>
+	
+	<h2>Applied Maths-3</h2>
+	<ul>
+		<li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_lBsFdycJzyuqH9SRGaQhO6" target="_blank" rel="noopener noreferrer">1.Partial Differential Equations</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_kGjFuji411U1u65pTDVMGV" target="_blank" rel="noopener noreferrer">2.Application of Partial Differential Equations</a></li>
+		<li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_lN2L1B-Lfxjd_F3XVG33T_">3.Fourier Series</a></li>
+        <li><a href="https://www.youtube.com/playlist?list=PLOxDDktsWz_kGtapjdUmptv34zQTo9zmI" target="_blank" rel="noopener noreferrer">4.Fourier Transform</a></li>
+	</ul>
+	
+	<h2>Applied Maths-4</h2>
+	<ul>
+		<li><a href="https://youtube.com/playlist?list=PLOxDDktsWz_kyDI9PKTlS8wp-Q_6yt5Fg" target="_blank" rel="noopener noreferrer">1. Iterative Techniques and Interpolation</a></li>
+        </ul>
+	
 
-    @keyframes slide-in-blurred-top {
-      0% {
-        transform: translateY(-1000px) scale(2) blur(10px);
-        opacity: 0;
-      }
+	<!-- Fifth heading and corresponding video list -->
+	<h2>Theory of Computation</h2>
+	<ul>
+		<li> <a href= "https://youtube.com/playlist?list=PLOxDDktsWz_mzE70to4VwYyG1RsvXR15V">Theory of Computation</a></li>
+	</ul>
+	
+	<h2>Discrete Maths</h2>
+	<ul>
+		<li> <a href= "https://youtube.com/playlist?list=PLOxDDktsWz_mYxqxp5bCruEKVS4khb0Rk">Discrete Maths</a></li>
+		</ul>
+	
+	<h2>Data Structures</h2>
+	<ul>
+		<li> <a href= "https://youtube.com/playlist?list=PLOxDDktsWz_mfOObvRnnYp7US80joKJwN">Data Structures</a></li>
+		</ul>
+	
+	<h2>Coming Soon</h2>
+	<ul>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_13">Video 1</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_11">Video 2</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_12">Video 3</li>
+	</ul>
+	
+	<h2>Coming Soon</h2>
+	<ul>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_13">Video 1</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_11">Video 2</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_12">Video 3</li>
+	</ul>
+	
+	<h2>Coming Soon</h2>
+	<ul>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_13">Video 1</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_11">Video 2</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_12">Video 3</li>
+	</ul>
+	
+	<h2>Coming Soon</h2>
+	<ul>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_13">Video 1</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_11">Video 2</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_12">Video 3</li>
+	</ul>
+	
+	<h2>Coming Soon</h2>
+	<ul>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_13">Video 1</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_11">Video 2</li>
+		<li data-video="https://www.youtube.com/embed/VIDEO_ID_12">Video 3</li>
+	</ul>
+		
 
-      100% {
-        transform: translateY(0) scale(1) blur(0);
-        opacity: 1;
-      }
-    }
-
-    .subjects {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .subject {
-      width: 30%;
-      background-color: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20px;
-      text-align: center;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-      position: relative;
-    }
-
-    .subject h2 {
-      animation: slide-in-blurred-top 0.7s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-    }
-
-    .subject .chapters {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-      width: 80%;
-    }
-
-    .subject:hover .chapters {
-      display: block;
-    }
-
-    .subject .chapters a {
-      display: block;
-      margin-bottom: 10px;
-      color: white;
-      text-decoration: none;
-    }
-
-    .subject .chapters a:hover {
-      color: lightblue;
-    }
-  </style>
-</body>
-
+   
+  </body>
 </html>
