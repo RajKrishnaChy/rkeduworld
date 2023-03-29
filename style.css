@@ -85,3 +85,8 @@ footer {
     text-decoration: none;
     color: red;
 }
+
+a {
+    color: blue;
+    font-weight: bold;
+}
